@@ -1,0 +1,16 @@
+{
+  "name": "zainoo",
+  "version": "1.0.0",
+  "description": "Zainoo: Product Page with slider, animations, two-dimensional background and cool style",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
