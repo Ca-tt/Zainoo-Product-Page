@@ -1,0 +1,36 @@
+@use "sass:map";
+
+$colors: (
+  'default': white,
+  'primary': black,
+  'secondary': grey,
+);
+
+$fonts: (
+  'base-font': (21px 'Sofia Pro Light', sans-serif),
+  'brand-font': (32px 'Circular Std', sans-serif),
+);
+
+// basic fonts
+body {
+}
+
+// logo
+.logo {
+  font: map.get($fonts, 'brand-font');
+  color: map.get($colors, 'primary');
+  font-weight: bold;
+  position: relative;
+  
+  .brand-name {
+    letter-spacing: -1px;
+  }
+
+  .trademark {
+    font-size: 12px;
+    position: absolute;
+  }
+}
+
+
+

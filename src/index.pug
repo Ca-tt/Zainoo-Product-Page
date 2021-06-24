@@ -1,0 +1,64 @@
+html 
+	head 
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" content="width=device-width,initial-scale=1")
+		title Zainoo | Product Page
+		//  fonts 
+		link(rel="stylesheet" href="fonts/Circular/circular-std.css")
+		link(rel="stylesheet" href="fonts/Sofia-Pro/sofia-pro.css")
+		//  libraries 
+		//- link(rel="stylesheet" href="")
+		//- link(rel="stylesheet" href="css/bulma.min.css")
+		//  style 
+		//- link(rel="stylesheet" href="./scss_old/main.scss")
+		link(rel="stylesheet" href="scss/main.scss")
+
+	body.has-text-primary-dark
+
+		//  site header 
+		//  <header class="site-header flex-container flex-between container"> 
+		header.columns.has-background-primary
+
+			//  logo 
+			.logo.column.is-primary
+				b.brand-name zainoo
+				sup.trademark TM
+
+			//  site navigation 
+			nav.icons.column.is-3
+				i.fas.fa-search
+				i.fas.fa-shopping-basket
+				i.fas.fa-user
+
+		.flex-container
+
+			//  left sidebar 
+			aside.left-sidebar
+				nav.side-navigation
+					ul
+						li.nav-link Shoes
+						li.nav-link Bags
+						li.nav-link
+							| Accesories 
+							span.tag New
+						li.nav-link Support
+						
+				//  text with background 
+				section.row.additional-info
+					.with-background
+					.info
+					
+					//  learn more 
+					.row.learn-more
+						.line
+						p.text
+
+					//  scroll to the top 
+					.row
+						span.scroll Scroll Up
+
+		main.site-content
+		aside.right-sidebar
+
+		script(src="js/index.js")
