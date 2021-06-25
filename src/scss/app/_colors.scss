@@ -1,0 +1,25 @@
+// site colors
+
+// site backgrounds
+
+// vertical background lines
+.site-background {
+  z-index: -1;
+
+  .columns {
+  
+    .column {
+      &.has-border { 
+        border-right: 1px solid $grey-light;
+      }
+
+      &.has-number {
+        color: $yellow;
+        font-size: 20em;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+
+  }
+}

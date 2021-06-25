@@ -1,7 +1,9 @@
 @charset "utf-8";
 
-@import 'custom.scss';
+// bulma customization files
+@import 'custom-colors';
 
+// Bulma framework
 // Import only what you need from Bulma
 @import "bulma/bulma.sass";
 // @import "bulma/sass/utilities/_all.sass";
